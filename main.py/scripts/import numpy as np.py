@@ -2,9 +2,9 @@ import numpy as np
 import cv2, os, time
 from collections import deque
 
-print("="*70+"\nКУРСОВАЯ: ОПТИЧЕСКИЙ ПОТОК И ДВИЖЕНИЕ\n"+"="*70)
+print("="*70+"\n: ОПТИЧЕСКИЙ ПОТОК И ДВИЖЕНИЕ\n"+"="*70)
 
-VIDEO_PAPKA = "D:/optical_flow_project/video"
+VIDEO_PAPKA = "D:/main/video"
 os.makedirs(VIDEO_PAPKA, exist_ok=True)
 
 def naiti_video():
